@@ -9,3 +9,10 @@ You can create an "Rewarded Ad" and enable "Server Side Verification" for it at 
 In test screen, you can call your server like https://www.YOURWEBSITE:444/ to try and verify callback URL.
 </br>
 Don't forget the fill "user_id" parameter.
+
+# Publish
+Required Visual Studio 16.11 Preview 1 to publish at least.
+</br>
+Required .NET 6 Preview 4 to build at least.
+</br>
+Change appsettings.json file to use correct Path and Password for your domain's SSL Key. AdMob requires HTTPS connection.
